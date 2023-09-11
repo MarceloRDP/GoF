@@ -1,6 +1,6 @@
 import abstract_factory.Button;
 import abstract_factory.GUIFactory;
-import abstract_factory.Janela;
+import abstract_factory.Window;
 import abstract_factory.LinuxFactory;
 import abstract_factory.Menu;
 import abstract_factory.WindowsFactory;
@@ -11,11 +11,11 @@ class Application {
 
         Button button = factory.createButton();
         Menu menu = factory.createMenu();
-        Janela janela = factory.createJanela();
+        Window window = factory.createWindow();
         
         button.paint();
         menu.paint();
-        janela.paint();
+        window.paint();
 
     }
 }

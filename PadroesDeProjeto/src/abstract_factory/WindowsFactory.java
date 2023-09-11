@@ -11,8 +11,8 @@ public class WindowsFactory implements GUIFactory{
         return new WindowsMenu();
     }  
 
-    public WindowsJanela createJanela() {
-        return new WindowsJanela();
+    public WindowsWindow createWindow() {
+        return new WindowsWindow();
     } 
 
 }

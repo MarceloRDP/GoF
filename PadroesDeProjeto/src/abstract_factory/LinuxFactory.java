@@ -11,8 +11,8 @@ public class LinuxFactory implements GUIFactory {
         return new LinuxMenu();
     }
 
-        public LinuxJanela createJanela() {
-        return new LinuxJanela();
+        public LinuxWindow createWindow() {
+        return new LinuxWindow();
     }
 
 }
